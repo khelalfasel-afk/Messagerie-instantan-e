@@ -12,7 +12,6 @@ public class MessageId implements Serializable {
     private Utilisateur expediteur;
     private Utilisateur destinataire;
 
-    // Constructors
     public MessageId() {
     }
 
@@ -22,7 +21,6 @@ public class MessageId implements Serializable {
         this.destinataire = destinataire;
     }
 
-    // Getters and setters
     public Timestamp getCreatedAt() {
         return createdAt;
     }
@@ -47,7 +45,6 @@ public class MessageId implements Serializable {
         this.destinataire = destinataire;
     }
 
-    // Equals and hashCode methods
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
