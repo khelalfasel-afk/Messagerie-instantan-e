@@ -1,0 +1,406 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	background: #7f7fd5;
+	background: -webkit-linear-gradient(to right, #c7c6dc, #7e89a9, #4a7a97);
+	background: linear-gradient(to right, #c7c6dc, #7e89a9, #4a7a97);
+}
+
+.msg_card_body {
+	overflow-y: auto;
+	padding: 0;
+	margin: 0;
+	height: calc(100% - 130px);
+}
+
+.card {
+	border-radius: 0;
+}
+
+.card-footer,
+.card-header {
+	border-radius: 50px;
+}
+
+.container-fluid,
+.row,
+.chat {
+	height: 100%;
+}
+
+.chat {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.card {
+	height: 500px;
+	background-color: #010f21;
+	border-radius: 20px;
+	border: 2px solid #00ddff;
+}
+.card-header.msg_head {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.contacts_body {
+	padding: 0.75rem 0;
+	overflow-y: auto;
+	white-space: nowrap;
+}
+
+.msg_card_body {
+	overflow-y: auto;
+}
+
+.card-header {
+	border-radius: 15px 15px 0 0;
+	border-bottom: 0;
+}
+
+.card-footer {
+	border-radius: 0 0 15px 15px;
+	border-top: 0;
+}
+
+.container {
+	align-content: center;
+}
+
+.search {
+	border-radius: 15px 0 0 15px;
+	background-color: #173455;
+	border: 0;
+	color: white;
+}
+.btn.btn-outline-secondary.dropdown-toggle {
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	border-color: #173455;
+}
+.search:focus {
+	box-shadow: none;
+	outline: 0px;
+	background-color: #173455;
+	color: rgb(255, 255, 255);
+}
+
+.type_msg {
+	background-color: #173455;
+	border: 0;
+	height: 60px;
+	overflow-y: auto;
+	font-size: 20px;
+}
+
+.type_msg:focus {
+	box-shadow: none;
+	outline: 0px;
+	background-color: #173455;
+	color: rgb(255, 255, 255);
+}
+
+.action_menu {
+	display: none;
+}
+
+.action_menu1 {
+	display: none;
+}
+
+.attach_btn {
+	border-radius: 15px 0 0 15px;
+	background-color: #173455;
+	border: 0;
+	color: #00ddff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.send_btn {
+	border-radius: 0 15px 15px 0;
+	background-color: #173455;
+	border: 0;
+	color: #00ddff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.search_btn {
+	border-radius: 0 15px 15px 0;
+	background-color: #173455;
+	border: 0;
+	color: #00ddff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.contacts {
+	list-style: none;
+	padding: 0;
+}
+
+.contacts li {
+	width: 100%;
+	padding: 5px 10px;
+	margin-bottom: 15px;
+}
+
+.active {
+	background-color: #173455;
+}
+
+.user_img {
+	height: 60px;
+	width: 60px;
+	border: 1.5px solid #f5f6fa;
+}
+
+.user_img_msg {
+	height: 40px;
+	width: 40px;
+	border: 1.5px solid #f5f6fa;
+}
+
+.img_cont {
+	position: relative;
+	height: 70px;
+	width: 70px;
+}
+
+.img_cont_msg {
+	height: 40px;
+	width: 40px;
+}
+
+.online_icon {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: #4cd137;
+	border-radius: 50%;
+	bottom: 13px;
+	right: 13px;
+	border: 1.5px solid white;
+}
+
+.offline {
+	background-color: #c23616;
+}
+
+.user_info {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+
+.user_info p {
+	font-size: 10px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.video_cam {
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+.video_cam span {
+	color: #00ddff;
+	font-size: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.msg_cotainer {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #82ccdd;
+	padding: 10px;
+	position: relative;
+}
+
+.msg_cotainer_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: #78e08f;
+	padding: 10px;
+	position: relative;
+	
+}
+
+.msg_time {
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+}
+
+.msg_time_send {
+	position: absolute;
+	right: 0;
+	bottom: -15px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+}
+
+.msg_head {
+	position: relative;
+	background: #173455;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+@media (max-width: 576px) {
+	.contacts_card {
+		margin-bottom: 15px;
+	}
+}
+
+.input-group-text {
+	border-radius: 0 5px 5px 0;
+}
+
+#recordButton {
+	border-radius: 5px 0 0 5px;
+}
+
+#recordingStatus {
+	background-color: #ffffff;
+	border: 1px solid #ced4da;
+	border-left: 0;
+}
+
+.btn-outline-secondary {
+	color: #00ddff;
+	background-color: #173455;
+	background-image: none;
+	border-color: #495057;
+}
+
+.add-contact-btn {
+	position: absolute;
+	bottom: 50px;
+	left: 80%;
+	transform: translateX(-50%);
+	background-color: #173455;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.add-contact-btn i {
+	color: #00ddff;
+	font-size: 24px;
+}
+
+#action_menu_btn {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #00ddff;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.action_menu {
+	z-index: 1;
+	position: absolute;
+	padding: 15px 0;
+	background-color: #265073;
+	color: white;
+	border-radius: 15px;
+	top: 30px;
+	right: 15px;
+	display: none;
+}
+
+.action_menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.action_menu ul li {
+	width: 100%;
+	padding: 10px 15px;
+	margin-bottom: 5px;
+}
+
+.action_menu ul li i {
+	padding-right: 8px;
+}
+
+.action_menu ul li:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.708);
+}
+
+.dropdown-menu {
+	display: none;
+	position: absolute;
+	padding: 15px 0;
+	background-color: #265073cb;
+	min-width: 160px;
+	border-radius: 15px;
+	z-index: 1;
+}
+
+.dropdown-menu.show {
+	display: block;
+}
+
+.dropdown-item {
+	width: 100%;
+	padding: 10px 15px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+}
+.dropdown-item:focus {
+	background-color: rgba(0, 0, 0, 0.708);
+	color: rgb(255, 255, 255);
+}
+.dropdown-item i {
+	padding-right: 8px;
+}
+
+.dropdown-item:hover {
+	background-color: rgba(0, 0, 0, 0.708);
+	color: white;
+}
+
+.user_info span {
+	font-size: 20px;
+	color: #00ddff;
+	cursor: pointer;
+}
+
+.user_info span:hover {
+	text-decoration: underline;
+}
