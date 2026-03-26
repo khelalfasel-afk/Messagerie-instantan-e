@@ -8,11 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 @RestController
 public class MainController {
 
-
-
 	  @GetMapping("/check")
-	public void getIndexService() {
-	    // قم بتنفيذ الخدمة المطلوبة هنا
+	public void getIndexService() {ا
 	    System.out.println("Request for index service received.");
 	}
     
