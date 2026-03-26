@@ -23,7 +23,6 @@ public class utilisatursController {
 	    @GetMapping("/find/{userId1}")
 	    public Utilisateur  findUser(@PathVariable String userId1) {
 	    	Utilisateur u=utilisateurService.findUserByEmail(userId1);
-	        // يمكنك هنا طباعة الرسائل في وحدة التحكم أو تنفيذ أي عمليات أخرى
 	        return u;
 	    }
 	    
@@ -33,7 +32,6 @@ public class utilisatursController {
 	    @GetMapping("/Conversation/{user1}")
 	    public List<Utilisateur> findConversation(@PathVariable String user1) {
 	    	List<Utilisateur> u=utilisateurService.GetConversationsForUser(user1);
-	        // يمكنك هنا طباعة الرسائل في وحدة التحكم أو تنفيذ أي عمليات أخرى
 	        return u;
 	    }
 }
