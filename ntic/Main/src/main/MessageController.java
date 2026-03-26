@@ -49,7 +49,7 @@ public class MessageController {
      
         message.setCreatedAt(timestamp);
         messageService.saveMessage(message);
-    //   messageService.saveMessage(message);
+        messageService.saveMessage(message);
     } catch (Exception e) {
         e.printStackTrace();
     }
@@ -59,11 +59,7 @@ public class MessageController {
     
     @GetMapping("/messages/{user1}/{user2}")
     public List<Message> getMessagesBetweenUsers(@PathVariable String user1, @PathVariable String user2) {
-    	
-        
-    	
     	List<Message> messages = messageService.getMessagesBetweenUsers(user1, user2);
-        // يمكنك هنا طباعة الرسائل في وحدة التحكم أو تنفيذ أي عمليات أخرى
         return messages;
     }
 	
